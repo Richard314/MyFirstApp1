@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
+	id="my.first.app1" version="1.0.0">
+	<name>My First App1</name>
+
+	<description>
+		A sample Apache Cordova application that responds to the
+		deviceready
+		event.
+	</description>
+
+	<author href="http://www.eclipse.org/thym" email="thym-dev@eclipse.org">
+		Eclipse.org -
+		Thym
+	</author>
+
+	<content src="index.html" />
+
+	<access origin="*" />
+	<preference name="fullscreen" value="true" />
+	<preference name="webviewbounce" value="true" />
+
+	<feature name="App">
+		<param name="android-package" value="org.apache.cordova.App" />
+	</feature>
+	
+	<feature name="Hello">
+		<param name="android-package" value="com.example.plugin.Hello" />
+		<param name="ios-package" value="HWPHello" />
+		
+		
+	<param name="installPath" value="E:\ws\Eclipse\cordova-plugin-hello" /><param name="id" value="com.example.hello" /></feature>
+	
+	
+
+</widget>
